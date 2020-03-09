@@ -54,11 +54,7 @@ class _OrderWidgetState extends State<OrderWidget> {
                 overflow: TextOverflow.ellipsis,
                 style: Theme.of(context).textTheme.bodyText1,
               ),
-              Text(
-                widget.secondaryText,
-                overflow: TextOverflow.ellipsis,
-                style: Theme.of(context).textTheme.bodyText2,
-              ),
+              
               const SizedBox(
                 height: 8.0,
               ),

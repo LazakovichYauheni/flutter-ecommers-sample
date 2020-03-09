@@ -40,6 +40,9 @@ class NavigationService {
       case Pages.success:
         resultPage = const SuccessPage();
         break;
+      case Pages.notifications:
+        resultPage = NotificationsPage();
+        break;
       default:
         resultPage = ShellPage();
         break;
