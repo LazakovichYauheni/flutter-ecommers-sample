@@ -66,7 +66,7 @@ class _CartPageState extends State<CartPage> {
 
     return Padding(
       padding:
-          const EdgeInsets.fromLTRB(Insets.x6, Insets.x0, Insets.x5, Insets.x4),
+          const EdgeInsets.fromLTRB(Insets.x6, Insets.x0, Insets.x0, Insets.x4),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: <Widget>[
